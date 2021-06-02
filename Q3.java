@@ -3,7 +3,7 @@ import java.util.*;
 class Q3{
     public static void main(String args[]){
 
-        System.out.println("Enter the length of array: ");
+        System.out.println("Enter the length of an array: ");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int[] A=new int[n];
@@ -12,7 +12,7 @@ class Q3{
           A[i] =sc.nextInt(); 
         }
         //    int A[]={10,2,9,8,66,5};
-            System.out.println("Even number are: ");
+            System.out.println("Repeated digit is:  ");
             for(int i=0;i<A.length;i++){
                 for(int j=i+1;j<A.length;j++){
                 if(A[i]==A[j]){

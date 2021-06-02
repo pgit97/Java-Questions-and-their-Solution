@@ -1,4 +1,4 @@
-//Q2.
+//Q2.Find the maximum consecutive 1's in an array of 0's and 1's.
 import java.util.*;
 class Q2{
     public static void main(String args[]){
